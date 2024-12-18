@@ -18,4 +18,4 @@ WORKDIR /app
 COPY --from=build /app/DemoApplication.class /app/DemoApplication.class
 
 # Command to run the application
-CMD ["DemoApplication"]
+CMD ["java","DemoApplication"]
